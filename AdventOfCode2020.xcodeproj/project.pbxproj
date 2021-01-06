@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9123520258FA297006C87DE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912351F258FA297006C87DE /* main.swift */; };
+		E9123547258FA42B006C87DE /* ExpensesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9123546258FA42B006C87DE /* ExpensesCalculator.swift */; };
+		E912354B258FA43E006C87DE /* ExpensesCalculatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912354A258FA43E006C87DE /* ExpensesCalculatorTest.swift */; };
+		E9123550258FA4C1006C87DE /* ExpensesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9123546258FA42B006C87DE /* ExpensesCalculator.swift */; };
+		E9123554258FB0D6006C87DE /* ValidPasswordsCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9123553258FB0D6006C87DE /* ValidPasswordsCounter.swift */; };
+		E912356A258FC250006C87DE /* Day2RawInputParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9123569258FC250006C87DE /* Day2RawInputParserTest.swift */; };
+		E912356F258FC2D5006C87DE /* ValidPasswordsCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9123553258FB0D6006C87DE /* ValidPasswordsCounter.swift */; };
+		E9123573258FD236006C87DE /* ValidPasswordsCounterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9123572258FD236006C87DE /* ValidPasswordsCounterTest.swift */; };
+		E9123577258FFB11006C87DE /* CharacterCountPolicyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9123576258FFB11006C87DE /* CharacterCountPolicyTest.swift */; };
+		E912357B2591094A006C87DE /* Policy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912357A25910949006C87DE /* Policy.swift */; };
+		E912357F25910B4C006C87DE /* CharacterCountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912357E25910B4C006C87DE /* CharacterCountPolicy.swift */; };
+		E912358425910B8F006C87DE /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912358325910B8F006C87DE /* Password.swift */; };
+		E912358525910B8F006C87DE /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912358325910B8F006C87DE /* Password.swift */; };
+		E912358925910C1F006C87DE /* Day2RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912358825910C1F006C87DE /* Day2RawInputParser.swift */; };
+		E912359B25910C98006C87DE /* PolicyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912359A25910C98006C87DE /* PolicyFactory.swift */; };
+		E912359C25910C98006C87DE /* PolicyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912359A25910C98006C87DE /* PolicyFactory.swift */; };
+		E91235A125910CFC006C87DE /* Day2RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912358825910C1F006C87DE /* Day2RawInputParser.swift */; };
+		E91235A725910D1E006C87DE /* CharacterPositionPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91235A625910D1E006C87DE /* CharacterPositionPolicy.swift */; };
+		E91235A825910D1E006C87DE /* CharacterPositionPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91235A625910D1E006C87DE /* CharacterPositionPolicy.swift */; };
+		E91235AF25911AA0006C87DE /* Policy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912357A25910949006C87DE /* Policy.swift */; };
+		E91235B225911AA6006C87DE /* CharacterCountPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912357E25910B4C006C87DE /* CharacterCountPolicy.swift */; };
+		E91235B825912618006C87DE /* CharacterPositionPolicyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91235B725912618006C87DE /* CharacterPositionPolicyTest.swift */; };
+		E945EA8825915987001E7A45 /* PasswordsAndPoliciesRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EA8725915987001E7A45 /* PasswordsAndPoliciesRawInput.swift */; };
+		E945EA8925915987001E7A45 /* PasswordsAndPoliciesRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EA8725915987001E7A45 /* PasswordsAndPoliciesRawInput.swift */; };
+		E945EAA0259160E4001E7A45 /* Day1RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EA9F259160E4001E7A45 /* Day1RawInputParser.swift */; };
+		E945EAA1259160E4001E7A45 /* Day1RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EA9F259160E4001E7A45 /* Day1RawInputParser.swift */; };
+		E945EAA725916230001E7A45 /* ExpensesRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAA625916230001E7A45 /* ExpensesRawInput.swift */; };
+		E945EAA825916230001E7A45 /* ExpensesRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAA625916230001E7A45 /* ExpensesRawInput.swift */; };
+		E945EABA25927FAD001E7A45 /* Day3RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAB925927FAD001E7A45 /* Day3RawInputParser.swift */; };
+		E945EABB25927FAD001E7A45 /* Day3RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAB925927FAD001E7A45 /* Day3RawInputParser.swift */; };
+		E945EAC125928524001E7A45 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAC025928524001E7A45 /* Map.swift */; };
+		E945EAC225928524001E7A45 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAC025928524001E7A45 /* Map.swift */; };
+		E945EAC7259288EC001E7A45 /* Day3RawInputParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAC6259288EC001E7A45 /* Day3RawInputParserTest.swift */; };
+		E945EACF2592B708001E7A45 /* MapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EACE2592B708001E7A45 /* MapTest.swift */; };
+		E945EAD32592C429001E7A45 /* MapPatternRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAD22592C429001E7A45 /* MapPatternRawInput.swift */; };
+		E945EAD42592C429001E7A45 /* MapPatternRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAD22592C429001E7A45 /* MapPatternRawInput.swift */; };
+		E945EAD82592F899001E7A45 /* Slope.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAD72592F899001E7A45 /* Slope.swift */; };
+		E945EAD92592F899001E7A45 /* Slope.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAD72592F899001E7A45 /* Slope.swift */; };
+		E945EADD2592FE44001E7A45 /* Right1Down2SlopeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EADC2592FE44001E7A45 /* Right1Down2SlopeTest.swift */; };
+		E945EAE22593026F001E7A45 /* IncrementalSlope.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAE12593026F001E7A45 /* IncrementalSlope.swift */; };
+		E945EAE32593026F001E7A45 /* IncrementalSlope.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAE12593026F001E7A45 /* IncrementalSlope.swift */; };
+		E945EAEB2593086D001E7A45 /* Right5Down1SlopeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E945EAEA2593086D001E7A45 /* Right5Down1SlopeTest.swift */; };
+		E980F09E259FC96A008B5225 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F09D259FC96A008B5225 /* Bag.swift */; };
+		E980F09F259FC96A008B5225 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F09D259FC96A008B5225 /* Bag.swift */; };
+		E980F0AA259FD07B008B5225 /* ContainerBagsCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0A9259FD07B008B5225 /* ContainerBagsCounter.swift */; };
+		E980F0AB259FD07B008B5225 /* ContainerBagsCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0A9259FD07B008B5225 /* ContainerBagsCounter.swift */; };
+		E980F0B3259FDDFC008B5225 /* ContainerBagsCounterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0B2259FDDFC008B5225 /* ContainerBagsCounterTest.swift */; };
+		E980F0B725A01013008B5225 /* Day7RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0B625A01013008B5225 /* Day7RawInputParser.swift */; };
+		E980F0B825A01013008B5225 /* Day7RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0B625A01013008B5225 /* Day7RawInputParser.swift */; };
+		E980F0BC25A0106D008B5225 /* BagRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0BB25A0106D008B5225 /* BagRule.swift */; };
+		E980F0BD25A0106D008B5225 /* BagRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0BB25A0106D008B5225 /* BagRule.swift */; };
+		E980F0C125A01593008B5225 /* Day7RawInputParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0C025A01593008B5225 /* Day7RawInputParserTest.swift */; };
+		E980F0C525A015CD008B5225 /* BagRulesRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0C425A015CD008B5225 /* BagRulesRawInput.swift */; };
+		E980F0C625A015CD008B5225 /* BagRulesRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0C425A015CD008B5225 /* BagRulesRawInput.swift */; };
+		E980F0CA25A14857008B5225 /* BagsContainedCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0C925A14857008B5225 /* BagsContainedCounter.swift */; };
+		E980F0CB25A14857008B5225 /* BagsContainedCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0C925A14857008B5225 /* BagsContainedCounter.swift */; };
+		E9BD0DE825A655470041672E /* BagsContainedCounterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD0DE725A655470041672E /* BagsContainedCounterTest.swift */; };
+		E9F174872593C24400EF3D1B /* PassportFieldsValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174862593C24400EF3D1B /* PassportFieldsValidator.swift */; };
+		E9F1748C2593C24800EF3D1B /* PassportFieldsValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174862593C24400EF3D1B /* PassportFieldsValidator.swift */; };
+		E9F174902593D29F00EF3D1B /* PassportFieldsValidatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1748F2593D29F00EF3D1B /* PassportFieldsValidatorTest.swift */; };
+		E9F174962593D50C00EF3D1B /* PassportDataMandatoryFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174952593D50C00EF3D1B /* PassportDataMandatoryFields.swift */; };
+		E9F1749A2593DEC600EF3D1B /* Day4RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174992593DEC600EF3D1B /* Day4RawInputParser.swift */; };
+		E9F1749B2593DEC600EF3D1B /* Day4RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174992593DEC600EF3D1B /* Day4RawInputParser.swift */; };
+		E9F1749F2593DF1600EF3D1B /* Day4RawInputParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1749E2593DF1600EF3D1B /* Day4RawInputParserTest.swift */; };
+		E9F174A52593F3F900EF3D1B /* PassportDataRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174A42593F3F900EF3D1B /* PassportDataRawInput.swift */; };
+		E9F174A62593F3F900EF3D1B /* PassportDataRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174A42593F3F900EF3D1B /* PassportDataRawInput.swift */; };
+		E9F174A92593F46A00EF3D1B /* PassportDataMandatoryFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174952593D50C00EF3D1B /* PassportDataMandatoryFields.swift */; };
+		E9F174AD2594456D00EF3D1B /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174AC2594456D00EF3D1B /* Field.swift */; };
+		E9F174AE2594456D00EF3D1B /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174AC2594456D00EF3D1B /* Field.swift */; };
+		E9F174B425944DDF00EF3D1B /* PassportFieldsAndValuesValidatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174B325944DDF00EF3D1B /* PassportFieldsAndValuesValidatorTest.swift */; };
+		E9F174BA25944E1B00EF3D1B /* PassportFieldsAndValuesValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174B925944E1B00EF3D1B /* PassportFieldsAndValuesValidator.swift */; };
+		E9F174BB25944E1B00EF3D1B /* PassportFieldsAndValuesValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174B925944E1B00EF3D1B /* PassportFieldsAndValuesValidator.swift */; };
+		E9F174C1259529EB00EF3D1B /* HeightFieldTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174C0259529EB00EF3D1B /* HeightFieldTest.swift */; };
+		E9F174C525952C6C00EF3D1B /* HairColorFieldTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174C425952C6C00EF3D1B /* HairColorFieldTest.swift */; };
+		E9F174CB2598E29100EF3D1B /* Seat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174CA2598E29100EF3D1B /* Seat.swift */; };
+		E9F174CC2598E29100EF3D1B /* Seat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174CA2598E29100EF3D1B /* Seat.swift */; };
+		E9F174D72598E8E700EF3D1B /* SeatTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174D62598E8E700EF3D1B /* SeatTest.swift */; };
+		E9F174DF2598F00E00EF3D1B /* Day5RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174DE2598F00E00EF3D1B /* Day5RawInputParser.swift */; };
+		E9F174E02598F00E00EF3D1B /* Day5RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174DE2598F00E00EF3D1B /* Day5RawInputParser.swift */; };
+		E9F174E42598F06100EF3D1B /* BinarySpacePartitionRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174E32598F06100EF3D1B /* BinarySpacePartitionRawInput.swift */; };
+		E9F174E52598F06100EF3D1B /* BinarySpacePartitionRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174E32598F06100EF3D1B /* BinarySpacePartitionRawInput.swift */; };
+		E9F174ED259910EF00EF3D1B /* QuestionAnswersCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174EC259910EF00EF3D1B /* QuestionAnswersCounter.swift */; };
+		E9F174EE259910EF00EF3D1B /* QuestionAnswersCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174EC259910EF00EF3D1B /* QuestionAnswersCounter.swift */; };
+		E9F174F42599128D00EF3D1B /* QuestionAnswersCounterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174F32599128D00EF3D1B /* QuestionAnswersCounterTest.swift */; };
+		E9F174F82599164F00EF3D1B /* GroupsAnswersRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174F72599164F00EF3D1B /* GroupsAnswersRawInput.swift */; };
+		E9F174F92599164F00EF3D1B /* GroupsAnswersRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174F72599164F00EF3D1B /* GroupsAnswersRawInput.swift */; };
+		E9F174FD2599172600EF3D1B /* Day6RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174FC2599172600EF3D1B /* Day6RawInputParser.swift */; };
+		E9F174FE2599172600EF3D1B /* Day6RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174FC2599172600EF3D1B /* Day6RawInputParser.swift */; };
+		E9F1750625991B7300EF3D1B /* Day6RawInputParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1750525991B7300EF3D1B /* Day6RawInputParserTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E912351A258FA297006C87DE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E912351C258FA297006C87DE /* AdventOfCode2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode2020; sourceTree = BUILT_PRODUCTS_DIR; };
+		E912351F258FA297006C87DE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E912353C258FA366006C87DE /* AdventOfCode2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventOfCode2020Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9123540258FA366006C87DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9123546258FA42B006C87DE /* ExpensesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesCalculator.swift; sourceTree = "<group>"; };
+		E912354A258FA43E006C87DE /* ExpensesCalculatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesCalculatorTest.swift; sourceTree = "<group>"; };
+		E9123553258FB0D6006C87DE /* ValidPasswordsCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPasswordsCounter.swift; sourceTree = "<group>"; };
+		E9123569258FC250006C87DE /* Day2RawInputParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2RawInputParserTest.swift; sourceTree = "<group>"; };
+		E9123572258FD236006C87DE /* ValidPasswordsCounterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPasswordsCounterTest.swift; sourceTree = "<group>"; };
+		E9123576258FFB11006C87DE /* CharacterCountPolicyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCountPolicyTest.swift; sourceTree = "<group>"; };
+		E912357A25910949006C87DE /* Policy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Policy.swift; sourceTree = "<group>"; };
+		E912357E25910B4C006C87DE /* CharacterCountPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCountPolicy.swift; sourceTree = "<group>"; };
+		E912358325910B8F006C87DE /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		E912358825910C1F006C87DE /* Day2RawInputParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2RawInputParser.swift; sourceTree = "<group>"; };
+		E912359A25910C98006C87DE /* PolicyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyFactory.swift; sourceTree = "<group>"; };
+		E91235A625910D1E006C87DE /* CharacterPositionPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPositionPolicy.swift; sourceTree = "<group>"; };
+		E91235B725912618006C87DE /* CharacterPositionPolicyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPositionPolicyTest.swift; sourceTree = "<group>"; };
+		E945EA8725915987001E7A45 /* PasswordsAndPoliciesRawInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsAndPoliciesRawInput.swift; sourceTree = "<group>"; };
+		E945EA9F259160E4001E7A45 /* Day1RawInputParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1RawInputParser.swift; sourceTree = "<group>"; };
+		E945EAA625916230001E7A45 /* ExpensesRawInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesRawInput.swift; sourceTree = "<group>"; };
+		E945EAB925927FAD001E7A45 /* Day3RawInputParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3RawInputParser.swift; sourceTree = "<group>"; };
+		E945EAC025928524001E7A45 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		E945EAC6259288EC001E7A45 /* Day3RawInputParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3RawInputParserTest.swift; sourceTree = "<group>"; };
+		E945EACE2592B708001E7A45 /* MapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTest.swift; sourceTree = "<group>"; };
+		E945EAD22592C429001E7A45 /* MapPatternRawInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPatternRawInput.swift; sourceTree = "<group>"; };
+		E945EAD72592F899001E7A45 /* Slope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slope.swift; sourceTree = "<group>"; };
+		E945EADC2592FE44001E7A45 /* Right1Down2SlopeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Right1Down2SlopeTest.swift; sourceTree = "<group>"; };
+		E945EAE12593026F001E7A45 /* IncrementalSlope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementalSlope.swift; sourceTree = "<group>"; };
+		E945EAEA2593086D001E7A45 /* Right5Down1SlopeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Right5Down1SlopeTest.swift; sourceTree = "<group>"; };
+		E980F09D259FC96A008B5225 /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		E980F0A9259FD07B008B5225 /* ContainerBagsCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerBagsCounter.swift; sourceTree = "<group>"; };
+		E980F0B2259FDDFC008B5225 /* ContainerBagsCounterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerBagsCounterTest.swift; sourceTree = "<group>"; };
+		E980F0B625A01013008B5225 /* Day7RawInputParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7RawInputParser.swift; sourceTree = "<group>"; };
+		E980F0BB25A0106D008B5225 /* BagRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagRule.swift; sourceTree = "<group>"; };
+		E980F0C025A01593008B5225 /* Day7RawInputParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7RawInputParserTest.swift; sourceTree = "<group>"; };
+		E980F0C425A015CD008B5225 /* BagRulesRawInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagRulesRawInput.swift; sourceTree = "<group>"; };
+		E980F0C925A14857008B5225 /* BagsContainedCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagsContainedCounter.swift; sourceTree = "<group>"; };
+		E9BD0DDD25A653BA0041672E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E9BD0DE725A655470041672E /* BagsContainedCounterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagsContainedCounterTest.swift; sourceTree = "<group>"; };
+		E9F174862593C24400EF3D1B /* PassportFieldsValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFieldsValidator.swift; sourceTree = "<group>"; };
+		E9F1748F2593D29F00EF3D1B /* PassportFieldsValidatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFieldsValidatorTest.swift; sourceTree = "<group>"; };
+		E9F174952593D50C00EF3D1B /* PassportDataMandatoryFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportDataMandatoryFields.swift; sourceTree = "<group>"; };
+		E9F174992593DEC600EF3D1B /* Day4RawInputParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4RawInputParser.swift; sourceTree = "<group>"; };
+		E9F1749E2593DF1600EF3D1B /* Day4RawInputParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4RawInputParserTest.swift; sourceTree = "<group>"; };
+		E9F174A42593F3F900EF3D1B /* PassportDataRawInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportDataRawInput.swift; sourceTree = "<group>"; };
+		E9F174AC2594456D00EF3D1B /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		E9F174B325944DDF00EF3D1B /* PassportFieldsAndValuesValidatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFieldsAndValuesValidatorTest.swift; sourceTree = "<group>"; };
+		E9F174B925944E1B00EF3D1B /* PassportFieldsAndValuesValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFieldsAndValuesValidator.swift; sourceTree = "<group>"; };
+		E9F174C0259529EB00EF3D1B /* HeightFieldTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightFieldTest.swift; sourceTree = "<group>"; };
+		E9F174C425952C6C00EF3D1B /* HairColorFieldTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairColorFieldTest.swift; sourceTree = "<group>"; };
+		E9F174CA2598E29100EF3D1B /* Seat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seat.swift; sourceTree = "<group>"; };
+		E9F174D62598E8E700EF3D1B /* SeatTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatTest.swift; sourceTree = "<group>"; };
+		E9F174DE2598F00E00EF3D1B /* Day5RawInputParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5RawInputParser.swift; sourceTree = "<group>"; };
+		E9F174E32598F06100EF3D1B /* BinarySpacePartitionRawInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySpacePartitionRawInput.swift; sourceTree = "<group>"; };
+		E9F174EC259910EF00EF3D1B /* QuestionAnswersCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswersCounter.swift; sourceTree = "<group>"; };
+		E9F174F32599128D00EF3D1B /* QuestionAnswersCounterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswersCounterTest.swift; sourceTree = "<group>"; };
+		E9F174F72599164F00EF3D1B /* GroupsAnswersRawInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsAnswersRawInput.swift; sourceTree = "<group>"; };
+		E9F174FC2599172600EF3D1B /* Day6RawInputParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6RawInputParser.swift; sourceTree = "<group>"; };
+		E9F1750525991B7300EF3D1B /* Day6RawInputParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6RawInputParserTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9123519258FA297006C87DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9123539258FA366006C87DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9123513258FA297006C87DE = {
+			isa = PBXGroup;
+			children = (
+				E9BD0DDD25A653BA0041672E /* README.md */,
+				E912351E258FA297006C87DE /* AdventOfCode2020 */,
+				E912353D258FA366006C87DE /* AdventOfCode2020Tests */,
+				E912351D258FA297006C87DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E912351D258FA297006C87DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E912351C258FA297006C87DE /* AdventOfCode2020 */,
+				E912353C258FA366006C87DE /* AdventOfCode2020Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E912351E258FA297006C87DE /* AdventOfCode2020 */ = {
+			isa = PBXGroup;
+			children = (
+				E912351F258FA297006C87DE /* main.swift */,
+				E912355B258FB4BE006C87DE /* Day1 */,
+				E9123563258FB5F6006C87DE /* Day2 */,
+				E945EAB825927F77001E7A45 /* Day3 */,
+				E9F174842593C1AA00EF3D1B /* Day4 */,
+				E9F174C82598E20000EF3D1B /* Day5 */,
+				E9F174EA259902A000EF3D1B /* Day6 */,
+				E980F09B259FC935008B5225 /* Day7 */,
+			);
+			path = AdventOfCode2020;
+			sourceTree = "<group>";
+		};
+		E912353D258FA366006C87DE /* AdventOfCode2020Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E9123540258FA366006C87DE /* Info.plist */,
+				E9123562258FB4E3006C87DE /* Day1 */,
+				E9123568258FC237006C87DE /* Day2 */,
+				E945EAC5259288C7001E7A45 /* Day3 */,
+				E9F174852593C1B300EF3D1B /* Day4 */,
+				E9F174C92598E20C00EF3D1B /* Day5 */,
+				E9F174EB259902A500EF3D1B /* Day6 */,
+				E980F09C259FC941008B5225 /* Day7 */,
+			);
+			path = AdventOfCode2020Tests;
+			sourceTree = "<group>";
+		};
+		E912355B258FB4BE006C87DE /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				E9123546258FA42B006C87DE /* ExpensesCalculator.swift */,
+				E9BD0DE025A654880041672E /* Input */,
+			);
+			path = Day1;
+			sourceTree = "<group>";
+		};
+		E9123562258FB4E3006C87DE /* Day1 */ = {
+			isa = PBXGroup;
+			children = (
+				E912354A258FA43E006C87DE /* ExpensesCalculatorTest.swift */,
+			);
+			path = Day1;
+			sourceTree = "<group>";
+		};
+		E9123563258FB5F6006C87DE /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				E912358325910B8F006C87DE /* Password.swift */,
+				E9123553258FB0D6006C87DE /* ValidPasswordsCounter.swift */,
+				E9BD0DE125A654950041672E /* Input */,
+				E912359025910C47006C87DE /* Policy */,
+			);
+			path = Day2;
+			sourceTree = "<group>";
+		};
+		E9123568258FC237006C87DE /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+				E9123569258FC250006C87DE /* Day2RawInputParserTest.swift */,
+				E9123572258FD236006C87DE /* ValidPasswordsCounterTest.swift */,
+				E945EAB725916561001E7A45 /* Policy */,
+			);
+			path = Day2;
+			sourceTree = "<group>";
+		};
+		E912359025910C47006C87DE /* Policy */ = {
+			isa = PBXGroup;
+			children = (
+				E912357E25910B4C006C87DE /* CharacterCountPolicy.swift */,
+				E91235A625910D1E006C87DE /* CharacterPositionPolicy.swift */,
+				E912357A25910949006C87DE /* Policy.swift */,
+				E912359A25910C98006C87DE /* PolicyFactory.swift */,
+			);
+			path = Policy;
+			sourceTree = "<group>";
+		};
+		E945EAB725916561001E7A45 /* Policy */ = {
+			isa = PBXGroup;
+			children = (
+				E9123576258FFB11006C87DE /* CharacterCountPolicyTest.swift */,
+				E91235B725912618006C87DE /* CharacterPositionPolicyTest.swift */,
+			);
+			path = Policy;
+			sourceTree = "<group>";
+		};
+		E945EAB825927F77001E7A45 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				E945EAC025928524001E7A45 /* Map.swift */,
+				E9BD0DE225A654A50041672E /* Input */,
+				E945EAE02593025F001E7A45 /* Slope */,
+			);
+			path = Day3;
+			sourceTree = "<group>";
+		};
+		E945EAC5259288C7001E7A45 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				E945EAC6259288EC001E7A45 /* Day3RawInputParserTest.swift */,
+				E945EADC2592FE44001E7A45 /* Right1Down2SlopeTest.swift */,
+				E945EAEA2593086D001E7A45 /* Right5Down1SlopeTest.swift */,
+				E945EACE2592B708001E7A45 /* MapTest.swift */,
+			);
+			path = Day3;
+			sourceTree = "<group>";
+		};
+		E945EAE02593025F001E7A45 /* Slope */ = {
+			isa = PBXGroup;
+			children = (
+				E945EAE12593026F001E7A45 /* IncrementalSlope.swift */,
+				E945EAD72592F899001E7A45 /* Slope.swift */,
+			);
+			path = Slope;
+			sourceTree = "<group>";
+		};
+		E980F09B259FC935008B5225 /* Day7 */ = {
+			isa = PBXGroup;
+			children = (
+				E980F09D259FC96A008B5225 /* Bag.swift */,
+				E980F0BB25A0106D008B5225 /* BagRule.swift */,
+				E980F0C925A14857008B5225 /* BagsContainedCounter.swift */,
+				E980F0A9259FD07B008B5225 /* ContainerBagsCounter.swift */,
+				E9BD0DE625A655110041672E /* Input */,
+			);
+			path = Day7;
+			sourceTree = "<group>";
+		};
+		E980F09C259FC941008B5225 /* Day7 */ = {
+			isa = PBXGroup;
+			children = (
+				E980F0B2259FDDFC008B5225 /* ContainerBagsCounterTest.swift */,
+				E9BD0DE725A655470041672E /* BagsContainedCounterTest.swift */,
+				E980F0C025A01593008B5225 /* Day7RawInputParserTest.swift */,
+			);
+			path = Day7;
+			sourceTree = "<group>";
+		};
+		E9BD0DE025A654880041672E /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				E945EA9F259160E4001E7A45 /* Day1RawInputParser.swift */,
+				E945EAA625916230001E7A45 /* ExpensesRawInput.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		E9BD0DE125A654950041672E /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				E912358825910C1F006C87DE /* Day2RawInputParser.swift */,
+				E945EA8725915987001E7A45 /* PasswordsAndPoliciesRawInput.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		E9BD0DE225A654A50041672E /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				E945EAB925927FAD001E7A45 /* Day3RawInputParser.swift */,
+				E945EAD22592C429001E7A45 /* MapPatternRawInput.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		E9BD0DE325A654D50041672E /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				E9F174992593DEC600EF3D1B /* Day4RawInputParser.swift */,
+				E9F174A42593F3F900EF3D1B /* PassportDataRawInput.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		E9BD0DE425A654E30041672E /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				E9F174E32598F06100EF3D1B /* BinarySpacePartitionRawInput.swift */,
+				E9F174DE2598F00E00EF3D1B /* Day5RawInputParser.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		E9BD0DE525A655010041672E /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				E9F174F72599164F00EF3D1B /* GroupsAnswersRawInput.swift */,
+				E9F174FC2599172600EF3D1B /* Day6RawInputParser.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		E9BD0DE625A655110041672E /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				E980F0C425A015CD008B5225 /* BagRulesRawInput.swift */,
+				E980F0B625A01013008B5225 /* Day7RawInputParser.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		E9F174842593C1AA00EF3D1B /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				E9F174AC2594456D00EF3D1B /* Field.swift */,
+				E9F174952593D50C00EF3D1B /* PassportDataMandatoryFields.swift */,
+				E9F174B925944E1B00EF3D1B /* PassportFieldsAndValuesValidator.swift */,
+				E9F174862593C24400EF3D1B /* PassportFieldsValidator.swift */,
+				E9BD0DE325A654D50041672E /* Input */,
+			);
+			path = Day4;
+			sourceTree = "<group>";
+		};
+		E9F174852593C1B300EF3D1B /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				E9F1749E2593DF1600EF3D1B /* Day4RawInputParserTest.swift */,
+				E9F1748F2593D29F00EF3D1B /* PassportFieldsValidatorTest.swift */,
+				E9F174B325944DDF00EF3D1B /* PassportFieldsAndValuesValidatorTest.swift */,
+				E9F174C0259529EB00EF3D1B /* HeightFieldTest.swift */,
+				E9F174C425952C6C00EF3D1B /* HairColorFieldTest.swift */,
+			);
+			path = Day4;
+			sourceTree = "<group>";
+		};
+		E9F174C82598E20000EF3D1B /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				E9F174CA2598E29100EF3D1B /* Seat.swift */,
+				E9BD0DE425A654E30041672E /* Input */,
+			);
+			path = Day5;
+			sourceTree = "<group>";
+		};
+		E9F174C92598E20C00EF3D1B /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				E9F174D62598E8E700EF3D1B /* SeatTest.swift */,
+			);
+			path = Day5;
+			sourceTree = "<group>";
+		};
+		E9F174EA259902A000EF3D1B /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+				E9F174EC259910EF00EF3D1B /* QuestionAnswersCounter.swift */,
+				E9BD0DE525A655010041672E /* Input */,
+			);
+			path = Day6;
+			sourceTree = "<group>";
+		};
+		E9F174EB259902A500EF3D1B /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+				E9F174F32599128D00EF3D1B /* QuestionAnswersCounterTest.swift */,
+				E9F1750525991B7300EF3D1B /* Day6RawInputParserTest.swift */,
+			);
+			path = Day6;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E912351B258FA297006C87DE /* AdventOfCode2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9123523258FA297006C87DE /* Build configuration list for PBXNativeTarget "AdventOfCode2020" */;
+			buildPhases = (
+				E9123518258FA297006C87DE /* Sources */,
+				E9123519258FA297006C87DE /* Frameworks */,
+				E912351A258FA297006C87DE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventOfCode2020;
+			productName = AdventOfCode2020;
+			productReference = E912351C258FA297006C87DE /* AdventOfCode2020 */;
+			productType = "com.apple.product-type.tool";
+		};
+		E912353B258FA366006C87DE /* AdventOfCode2020Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9123541258FA366006C87DE /* Build configuration list for PBXNativeTarget "AdventOfCode2020Tests" */;
+			buildPhases = (
+				E9123538258FA366006C87DE /* Sources */,
+				E9123539258FA366006C87DE /* Frameworks */,
+				E912353A258FA366006C87DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventOfCode2020Tests;
+			productName = AdventOfCode2020Tests;
+			productReference = E912353C258FA366006C87DE /* AdventOfCode2020Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9123514258FA297006C87DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					E912351B258FA297006C87DE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					E912353B258FA366006C87DE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = E9123517258FA297006C87DE /* Build configuration list for PBXProject "AdventOfCode2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9123513258FA297006C87DE;
+			productRefGroup = E912351D258FA297006C87DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E912351B258FA297006C87DE /* AdventOfCode2020 */,
+				E912353B258FA366006C87DE /* AdventOfCode2020Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E912353A258FA366006C87DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9123518258FA297006C87DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E945EAE22593026F001E7A45 /* IncrementalSlope.swift in Sources */,
+				E912358425910B8F006C87DE /* Password.swift in Sources */,
+				E9F174CB2598E29100EF3D1B /* Seat.swift in Sources */,
+				E9123547258FA42B006C87DE /* ExpensesCalculator.swift in Sources */,
+				E9F174872593C24400EF3D1B /* PassportFieldsValidator.swift in Sources */,
+				E9F1749A2593DEC600EF3D1B /* Day4RawInputParser.swift in Sources */,
+				E9123554258FB0D6006C87DE /* ValidPasswordsCounter.swift in Sources */,
+				E945EA8825915987001E7A45 /* PasswordsAndPoliciesRawInput.swift in Sources */,
+				E980F0CA25A14857008B5225 /* BagsContainedCounter.swift in Sources */,
+				E9F174DF2598F00E00EF3D1B /* Day5RawInputParser.swift in Sources */,
+				E9F174A52593F3F900EF3D1B /* PassportDataRawInput.swift in Sources */,
+				E980F09E259FC96A008B5225 /* Bag.swift in Sources */,
+				E9F174BA25944E1B00EF3D1B /* PassportFieldsAndValuesValidator.swift in Sources */,
+				E980F0BC25A0106D008B5225 /* BagRule.swift in Sources */,
+				E945EAD32592C429001E7A45 /* MapPatternRawInput.swift in Sources */,
+				E912358925910C1F006C87DE /* Day2RawInputParser.swift in Sources */,
+				E9F174AD2594456D00EF3D1B /* Field.swift in Sources */,
+				E980F0B725A01013008B5225 /* Day7RawInputParser.swift in Sources */,
+				E9F174E42598F06100EF3D1B /* BinarySpacePartitionRawInput.swift in Sources */,
+				E980F0C525A015CD008B5225 /* BagRulesRawInput.swift in Sources */,
+				E9F174F82599164F00EF3D1B /* GroupsAnswersRawInput.swift in Sources */,
+				E945EAA725916230001E7A45 /* ExpensesRawInput.swift in Sources */,
+				E9123520258FA297006C87DE /* main.swift in Sources */,
+				E91235A725910D1E006C87DE /* CharacterPositionPolicy.swift in Sources */,
+				E945EAD82592F899001E7A45 /* Slope.swift in Sources */,
+				E912357F25910B4C006C87DE /* CharacterCountPolicy.swift in Sources */,
+				E945EABA25927FAD001E7A45 /* Day3RawInputParser.swift in Sources */,
+				E945EAC125928524001E7A45 /* Map.swift in Sources */,
+				E9F174962593D50C00EF3D1B /* PassportDataMandatoryFields.swift in Sources */,
+				E980F0AA259FD07B008B5225 /* ContainerBagsCounter.swift in Sources */,
+				E9F174FD2599172600EF3D1B /* Day6RawInputParser.swift in Sources */,
+				E912359B25910C98006C87DE /* PolicyFactory.swift in Sources */,
+				E912357B2591094A006C87DE /* Policy.swift in Sources */,
+				E9F174ED259910EF00EF3D1B /* QuestionAnswersCounter.swift in Sources */,
+				E945EAA0259160E4001E7A45 /* Day1RawInputParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9123538258FA366006C87DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F1749B2593DEC600EF3D1B /* Day4RawInputParser.swift in Sources */,
+				E9123573258FD236006C87DE /* ValidPasswordsCounterTest.swift in Sources */,
+				E980F0BD25A0106D008B5225 /* BagRule.swift in Sources */,
+				E9F1748C2593C24800EF3D1B /* PassportFieldsValidator.swift in Sources */,
+				E9F174BB25944E1B00EF3D1B /* PassportFieldsAndValuesValidator.swift in Sources */,
+				E980F0CB25A14857008B5225 /* BagsContainedCounter.swift in Sources */,
+				E912356F258FC2D5006C87DE /* ValidPasswordsCounter.swift in Sources */,
+				E945EABB25927FAD001E7A45 /* Day3RawInputParser.swift in Sources */,
+				E9F174902593D29F00EF3D1B /* PassportFieldsValidatorTest.swift in Sources */,
+				E980F0C625A015CD008B5225 /* BagRulesRawInput.swift in Sources */,
+				E9F174F92599164F00EF3D1B /* GroupsAnswersRawInput.swift in Sources */,
+				E9F174A92593F46A00EF3D1B /* PassportDataMandatoryFields.swift in Sources */,
+				E9123550258FA4C1006C87DE /* ExpensesCalculator.swift in Sources */,
+				E9F174A62593F3F900EF3D1B /* PassportDataRawInput.swift in Sources */,
+				E980F0C125A01593008B5225 /* Day7RawInputParserTest.swift in Sources */,
+				E980F0B3259FDDFC008B5225 /* ContainerBagsCounterTest.swift in Sources */,
+				E945EAC7259288EC001E7A45 /* Day3RawInputParserTest.swift in Sources */,
+				E9F174AE2594456D00EF3D1B /* Field.swift in Sources */,
+				E91235B225911AA6006C87DE /* CharacterCountPolicy.swift in Sources */,
+				E9F174EE259910EF00EF3D1B /* QuestionAnswersCounter.swift in Sources */,
+				E945EAA825916230001E7A45 /* ExpensesRawInput.swift in Sources */,
+				E9BD0DE825A655470041672E /* BagsContainedCounterTest.swift in Sources */,
+				E945EAEB2593086D001E7A45 /* Right5Down1SlopeTest.swift in Sources */,
+				E9F174C1259529EB00EF3D1B /* HeightFieldTest.swift in Sources */,
+				E945EADD2592FE44001E7A45 /* Right1Down2SlopeTest.swift in Sources */,
+				E912354B258FA43E006C87DE /* ExpensesCalculatorTest.swift in Sources */,
+				E9F174E52598F06100EF3D1B /* BinarySpacePartitionRawInput.swift in Sources */,
+				E9F174C525952C6C00EF3D1B /* HairColorFieldTest.swift in Sources */,
+				E912358525910B8F006C87DE /* Password.swift in Sources */,
+				E912356A258FC250006C87DE /* Day2RawInputParserTest.swift in Sources */,
+				E91235A825910D1E006C87DE /* CharacterPositionPolicy.swift in Sources */,
+				E980F0B825A01013008B5225 /* Day7RawInputParser.swift in Sources */,
+				E980F0AB259FD07B008B5225 /* ContainerBagsCounter.swift in Sources */,
+				E91235AF25911AA0006C87DE /* Policy.swift in Sources */,
+				E980F09F259FC96A008B5225 /* Bag.swift in Sources */,
+				E9F174B425944DDF00EF3D1B /* PassportFieldsAndValuesValidatorTest.swift in Sources */,
+				E9F174E02598F00E00EF3D1B /* Day5RawInputParser.swift in Sources */,
+				E945EAE32593026F001E7A45 /* IncrementalSlope.swift in Sources */,
+				E945EA8925915987001E7A45 /* PasswordsAndPoliciesRawInput.swift in Sources */,
+				E9F1749F2593DF1600EF3D1B /* Day4RawInputParserTest.swift in Sources */,
+				E91235B825912618006C87DE /* CharacterPositionPolicyTest.swift in Sources */,
+				E912359C25910C98006C87DE /* PolicyFactory.swift in Sources */,
+				E9123577258FFB11006C87DE /* CharacterCountPolicyTest.swift in Sources */,
+				E91235A125910CFC006C87DE /* Day2RawInputParser.swift in Sources */,
+				E945EAC225928524001E7A45 /* Map.swift in Sources */,
+				E9F174CC2598E29100EF3D1B /* Seat.swift in Sources */,
+				E9F174D72598E8E700EF3D1B /* SeatTest.swift in Sources */,
+				E9F174FE2599172600EF3D1B /* Day6RawInputParser.swift in Sources */,
+				E9F174F42599128D00EF3D1B /* QuestionAnswersCounterTest.swift in Sources */,
+				E9F1750625991B7300EF3D1B /* Day6RawInputParserTest.swift in Sources */,
+				E945EACF2592B708001E7A45 /* MapTest.swift in Sources */,
+				E945EAD92592F899001E7A45 /* Slope.swift in Sources */,
+				E945EAD42592C429001E7A45 /* MapPatternRawInput.swift in Sources */,
+				E945EAA1259160E4001E7A45 /* Day1RawInputParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E9123521258FA297006C87DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9123522258FA297006C87DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E9123524258FA297006C87DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW4KT7U5SP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9123525258FA297006C87DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW4KT7U5SP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9123542258FA366006C87DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UW4KT7U5SP;
+				INFOPLIST_FILE = AdventOfCode2020Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pablomanuelli.AdventOfCode2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9123543258FA366006C87DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UW4KT7U5SP;
+				INFOPLIST_FILE = AdventOfCode2020Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pablomanuelli.AdventOfCode2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9123517258FA297006C87DE /* Build configuration list for PBXProject "AdventOfCode2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9123521258FA297006C87DE /* Debug */,
+				E9123522258FA297006C87DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9123523258FA297006C87DE /* Build configuration list for PBXNativeTarget "AdventOfCode2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9123524258FA297006C87DE /* Debug */,
+				E9123525258FA297006C87DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9123541258FA366006C87DE /* Build configuration list for PBXNativeTarget "AdventOfCode2020Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9123542258FA366006C87DE /* Debug */,
+				E9123543258FA366006C87DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9123514258FA297006C87DE /* Project object */;
+}
