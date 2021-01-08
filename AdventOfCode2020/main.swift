@@ -104,8 +104,10 @@ func printDay6Results() {
 func printDay7Results() {
     
     let rules = Day7RawInputParser.parse(raw: BagRulesRawInput.exercise)
-    let processor = ContainerBagsCounter(rules: rules)
     
     print("Day 7 - First")
-    print(processor.numberOfBagsContainingEventuallyBag(color: "shiny gold"))
+    print(ContainerBagsCounter(rules: rules).numberOfBagsContainingEventuallyBag(color: "shiny gold"))
+    
+    print("Day 7 - Second")
+    print(BagsContainedCounter(rules: rules).numberOfBagsContainedInsideOfBag(color: "shiny gold"))
 }

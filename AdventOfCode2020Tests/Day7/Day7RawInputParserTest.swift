@@ -13,18 +13,18 @@ class Day7RawInputParserTest: XCTestCase {
             """
         
         let rules = Day7RawInputParser.parse(raw: raw)
-        let expectedRules = [BagRule(containerBagColor: "dark orange", containedBagsInfo: [aContentBagInfo(0, "bright white")]),
-                             BagRule(containerBagColor: "dark orange", containedBagsInfo: [aContentBagInfo(0, "bright white"),
-                                                                                           aContentBagInfo(0, "muted yellow")]),
-                             BagRule(containerBagColor: "dark orange", containedBagsInfo: [aContentBagInfo(0, "bright white"),
-                                                                                           aContentBagInfo(0, "muted yellow"),
-                                                                                           aContentBagInfo(0, "mirrored olive")]),
-                             BagRule(containerBagColor: "dark orange", containedBagsInfo: [])]
+        let expectedRules = [BagRule(containerBagColor: "dark orange", contentBags: [aContentBag(3, "bright white")]),
+                             BagRule(containerBagColor: "dark orange", contentBags: [aContentBag(3, "bright white"),
+                                                                                     aContentBag(4, "muted yellow")]),
+                             BagRule(containerBagColor: "dark orange", contentBags: [aContentBag(3, "bright white"),
+                                                                                     aContentBag(4, "muted yellow"),
+                                                                                     aContentBag(2, "mirrored olive")]),
+                             BagRule(containerBagColor: "dark orange", contentBags: [])]
         
         XCTAssertEqual(rules, expectedRules)
     }
     
-    private func aContentBagInfo( _ amount: Int, _ color: BagColor) -> BagRule.ContentBagInfo {
-        BagRule.ContentBagInfo(color: color, amount: amount)
+    private func aContentBag( _ amount: Int, _ color: BagColor) -> BagRule.ContentBag {
+        BagRule.ContentBag(amount: amount, color: color)
     }
 }

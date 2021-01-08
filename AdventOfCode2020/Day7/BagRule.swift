@@ -1,14 +1,14 @@
 struct BagRule {
     
     let containerBagColor: BagColor
-    let containedBagsInfo: [ContentBagInfo]
+    let contentBags: [ContentBag]
     
-    struct ContentBagInfo {
-        let color: BagColor
+    struct ContentBag {
         let amount: Int
+        let color: BagColor
     }
 }
 
 extension BagRule: Equatable { }
 
-extension BagRule.ContentBagInfo: Equatable { }
+extension BagRule.ContentBag: Equatable { }

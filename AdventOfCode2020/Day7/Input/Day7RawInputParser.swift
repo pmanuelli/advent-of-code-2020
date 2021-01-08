@@ -18,24 +18,25 @@ struct Day7RawInputParser {
         let containerBagColor = words[0] + " " + words[1]
         
         if words[4] == "no" {
-            return BagRule(containerBagColor: containerBagColor, containedBagsInfo: [])
+            return BagRule(containerBagColor: containerBagColor, contentBags: [])
         }
         else {
             
             let contentWords = Array(words.dropFirst(4))
             let numberOfContents = contentWords.count/4
             
-            let containedBagsInfo: [BagRule.ContentBagInfo] = (0..<numberOfContents).map {
+            let containedBagsInfo: [BagRule.ContentBag] = (0..<numberOfContents).map {
                 createContentBagInfo(index: $0, contentWords: contentWords)
             }
             
-            return BagRule(containerBagColor: containerBagColor, containedBagsInfo: containedBagsInfo)
+            return BagRule(containerBagColor: containerBagColor, contentBags: containedBagsInfo)
         }
     }
     
-    private static func createContentBagInfo(index: Int, contentWords: [String]) -> BagRule.ContentBagInfo {
+    private static func createContentBagInfo(index: Int, contentWords: [String]) -> BagRule.ContentBag {
+        let amount = Int(contentWords[index * 4])!
         let firstColor = contentWords[index * 4 + 1]
         let secondColor = contentWords[index * 4 + 2]
-        return BagRule.ContentBagInfo(color: firstColor + " " + secondColor, amount: 0)
+        return BagRule.ContentBag(amount: amount, color: firstColor + " " + secondColor)
     }
 }

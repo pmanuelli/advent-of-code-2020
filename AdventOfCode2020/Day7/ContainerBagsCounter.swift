@@ -6,7 +6,7 @@ class ContainerBagsCounter {
         
         for rule in rules {
             
-            for bagColor in rule.containedBagsInfo.map({ $0.color }) {
+            for bagColor in rule.contentBags.map(\.color) {
                 
                 let bag = bagsByColor[bagColor] ?? Bag(color: bagColor)
                 let updatedBag = bag.addingContainerBagColor(rule.containerBagColor)

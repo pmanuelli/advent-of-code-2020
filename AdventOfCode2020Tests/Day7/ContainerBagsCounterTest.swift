@@ -13,10 +13,10 @@ class ContainerBagsCounterTest: XCTestCase {
     
         let colorToSearch = "color to search"
         
-        let bagRules = [BagRule(containerBagColor: "color a", containedBagsInfo: [aBagInfoWithColor(colorToSearch)]),
-                        BagRule(containerBagColor: "color b", containedBagsInfo: [aBagInfoWithColor(colorToSearch)]),
-                        BagRule(containerBagColor: "color c", containedBagsInfo: [aBagInfoWithColor(colorToSearch),
-                                                                                  aBagInfoWithColor("color color")])]
+        let bagRules = [BagRule(containerBagColor: "color a", contentBags: [aContentBag(color: colorToSearch)]),
+                        BagRule(containerBagColor: "color b", contentBags: [aContentBag(color: colorToSearch)]),
+                        BagRule(containerBagColor: "color c", contentBags: [aContentBag(color: colorToSearch),
+                                                                            aContentBag(color: "other color")])]
         
         let counter = ContainerBagsCounter(rules: bagRules)
         
@@ -27,10 +27,10 @@ class ContainerBagsCounterTest: XCTestCase {
     
         let colorToSearch = "color to search"
         
-        let bagRules = [BagRule(containerBagColor: "color a", containedBagsInfo: [aBagInfoWithColor("color b")]),
-                        BagRule(containerBagColor: "color b", containedBagsInfo: [aBagInfoWithColor("color c")]),
-                        BagRule(containerBagColor: "color c", containedBagsInfo: [aBagInfoWithColor(colorToSearch),
-                                                                                  aBagInfoWithColor("other color")])]
+        let bagRules = [BagRule(containerBagColor: "color a", contentBags: [aContentBag(color: "color b")]),
+                        BagRule(containerBagColor: "color b", contentBags: [aContentBag(color: "color c")]),
+                        BagRule(containerBagColor: "color c", contentBags: [aContentBag(color: colorToSearch),
+                                                                            aContentBag(color: "other color")])]
         
         let counter = ContainerBagsCounter(rules: bagRules)
         
@@ -41,9 +41,9 @@ class ContainerBagsCounterTest: XCTestCase {
     
         let colorToSearch = "color to search"
         
-        let bagRules = [BagRule(containerBagColor: "color a", containedBagsInfo: [aBagInfoWithColor(colorToSearch)]),
-                        BagRule(containerBagColor: "color x", containedBagsInfo: [aBagInfoWithColor("color z")]),
-                        BagRule(containerBagColor: "color z", containedBagsInfo: [])]
+        let bagRules = [BagRule(containerBagColor: "color a", contentBags: [aContentBag(color: colorToSearch)]),
+                        BagRule(containerBagColor: "color x", contentBags: [aContentBag(color: "color z")]),
+                        BagRule(containerBagColor: "color z", contentBags: [])]
         
         let counter = ContainerBagsCounter(rules: bagRules)
         
@@ -54,9 +54,9 @@ class ContainerBagsCounterTest: XCTestCase {
     
         let colorToSearch = "color to search"
         
-        let bagRules = [BagRule(containerBagColor: "color a", containedBagsInfo: [aBagInfoWithColor("color c"), aBagInfoWithColor("color d")]),
-                        BagRule(containerBagColor: "color c", containedBagsInfo: [aBagInfoWithColor(colorToSearch)]),
-                        BagRule(containerBagColor: "color d", containedBagsInfo: [aBagInfoWithColor(colorToSearch)])]
+        let bagRules = [BagRule(containerBagColor: "color a", contentBags: [aContentBag(color: "color c"), aContentBag(color: "color d")]),
+                        BagRule(containerBagColor: "color c", contentBags: [aContentBag(color: colorToSearch)]),
+                        BagRule(containerBagColor: "color d", contentBags: [aContentBag(color: colorToSearch)])]
         
         let counter = ContainerBagsCounter(rules: bagRules)
         
@@ -72,7 +72,7 @@ class ContainerBagsCounterTest: XCTestCase {
         XCTAssertEqual(counter.numberOfBagsContainingEventuallyBag(color: "shiny gold"), 4)
     }
     
-    private func aBagInfoWithColor(_ color: String) -> BagRule.ContentBagInfo {
-        return BagRule.ContentBagInfo(color: color, amount: 0)
+    private func aContentBag(color: String) -> BagRule.ContentBag {
+        return BagRule.ContentBag(amount: 0, color: color)
     }
 }
