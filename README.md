@@ -25,7 +25,7 @@ I did not focus on:
 
 ## How Far Did I Get?
 
-Currently I solved up to the [seventh day](https://adventofcode.com/2020/day/7). 
+Currently I solved up to the first half of the [eighth day](https://adventofcode.com/2020/day/8). 
 
 ## Final Words
 

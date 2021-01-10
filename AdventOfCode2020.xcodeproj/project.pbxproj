@@ -64,6 +64,18 @@
 		E980F0CA25A14857008B5225 /* BagsContainedCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0C925A14857008B5225 /* BagsContainedCounter.swift */; };
 		E980F0CB25A14857008B5225 /* BagsContainedCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980F0C925A14857008B5225 /* BagsContainedCounter.swift */; };
 		E9BD0DE825A655470041672E /* BagsContainedCounterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD0DE725A655470041672E /* BagsContainedCounterTest.swift */; };
+		E9BD2DE325AB4FA90041672E /* ProgramRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2DE225AB4FA90041672E /* ProgramRunner.swift */; };
+		E9BD2DE925AB745F0041672E /* ProgramState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2DE825AB745F0041672E /* ProgramState.swift */; };
+		E9BD2DEA25AB745F0041672E /* ProgramState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2DE825AB745F0041672E /* ProgramState.swift */; };
+		E9BD2DEE25AB74870041672E /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2DED25AB74870041672E /* Instruction.swift */; };
+		E9BD2DEF25AB74870041672E /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2DED25AB74870041672E /* Instruction.swift */; };
+		E9BD2DF525AB74BB0041672E /* ProgramRunnerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2DF425AB74BB0041672E /* ProgramRunnerTest.swift */; };
+		E9BD2DF825AB75120041672E /* ProgramRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2DE225AB4FA90041672E /* ProgramRunner.swift */; };
+		E9BD2DFD25AB7F0F0041672E /* Day8RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2DFC25AB7F0F0041672E /* Day8RawInputParser.swift */; };
+		E9BD2DFE25AB7F0F0041672E /* Day8RawInputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2DFC25AB7F0F0041672E /* Day8RawInputParser.swift */; };
+		E9BD2E0525ABACA40041672E /* Day8RawInputParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2E0425ABACA40041672E /* Day8RawInputParserTest.swift */; };
+		E9BD2E0D25ABAE8B0041672E /* ProgramRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2E0C25ABAE8B0041672E /* ProgramRawInput.swift */; };
+		E9BD2E0E25ABAE8B0041672E /* ProgramRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2E0C25ABAE8B0041672E /* ProgramRawInput.swift */; };
 		E9F174872593C24400EF3D1B /* PassportFieldsValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174862593C24400EF3D1B /* PassportFieldsValidator.swift */; };
 		E9F1748C2593C24800EF3D1B /* PassportFieldsValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174862593C24400EF3D1B /* PassportFieldsValidator.swift */; };
 		E9F174902593D29F00EF3D1B /* PassportFieldsValidatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1748F2593D29F00EF3D1B /* PassportFieldsValidatorTest.swift */; };
@@ -150,6 +162,13 @@
 		E980F0C925A14857008B5225 /* BagsContainedCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagsContainedCounter.swift; sourceTree = "<group>"; };
 		E9BD0DDD25A653BA0041672E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E9BD0DE725A655470041672E /* BagsContainedCounterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagsContainedCounterTest.swift; sourceTree = "<group>"; };
+		E9BD2DE225AB4FA90041672E /* ProgramRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramRunner.swift; sourceTree = "<group>"; };
+		E9BD2DE825AB745F0041672E /* ProgramState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramState.swift; sourceTree = "<group>"; };
+		E9BD2DED25AB74870041672E /* Instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		E9BD2DF425AB74BB0041672E /* ProgramRunnerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramRunnerTest.swift; sourceTree = "<group>"; };
+		E9BD2DFC25AB7F0F0041672E /* Day8RawInputParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8RawInputParser.swift; sourceTree = "<group>"; };
+		E9BD2E0425ABACA40041672E /* Day8RawInputParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8RawInputParserTest.swift; sourceTree = "<group>"; };
+		E9BD2E0C25ABAE8B0041672E /* ProgramRawInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramRawInput.swift; sourceTree = "<group>"; };
 		E9F174862593C24400EF3D1B /* PassportFieldsValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFieldsValidator.swift; sourceTree = "<group>"; };
 		E9F1748F2593D29F00EF3D1B /* PassportFieldsValidatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFieldsValidatorTest.swift; sourceTree = "<group>"; };
 		E9F174952593D50C00EF3D1B /* PassportDataMandatoryFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportDataMandatoryFields.swift; sourceTree = "<group>"; };
@@ -220,6 +239,7 @@
 				E9F174C82598E20000EF3D1B /* Day5 */,
 				E9F174EA259902A000EF3D1B /* Day6 */,
 				E980F09B259FC935008B5225 /* Day7 */,
+				E9BD2DE025AB4F060041672E /* Day8 */,
 			);
 			path = AdventOfCode2020;
 			sourceTree = "<group>";
@@ -235,6 +255,7 @@
 				E9F174C92598E20C00EF3D1B /* Day5 */,
 				E9F174EB259902A500EF3D1B /* Day6 */,
 				E980F09C259FC941008B5225 /* Day7 */,
+				E9BD2DE125AB4F150041672E /* Day8 */,
 			);
 			path = AdventOfCode2020Tests;
 			sourceTree = "<group>";
@@ -412,6 +433,43 @@
 			path = Input;
 			sourceTree = "<group>";
 		};
+		E9BD2DE025AB4F060041672E /* Day8 */ = {
+			isa = PBXGroup;
+			children = (
+				E9BD2DED25AB74870041672E /* Instruction.swift */,
+				E9BD2DE225AB4FA90041672E /* ProgramRunner.swift */,
+				E9BD2DE825AB745F0041672E /* ProgramState.swift */,
+				E9BD2DFB25AB7EF60041672E /* Input */,
+			);
+			path = Day8;
+			sourceTree = "<group>";
+		};
+		E9BD2DE125AB4F150041672E /* Day8 */ = {
+			isa = PBXGroup;
+			children = (
+				E9BD2DF425AB74BB0041672E /* ProgramRunnerTest.swift */,
+				E9BD2E0325ABAC900041672E /* Input */,
+			);
+			path = Day8;
+			sourceTree = "<group>";
+		};
+		E9BD2DFB25AB7EF60041672E /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				E9BD2DFC25AB7F0F0041672E /* Day8RawInputParser.swift */,
+				E9BD2E0C25ABAE8B0041672E /* ProgramRawInput.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		E9BD2E0325ABAC900041672E /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				E9BD2E0425ABACA40041672E /* Day8RawInputParserTest.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
 		E9F174842593C1AA00EF3D1B /* Day4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -559,13 +617,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BD2DE325AB4FA90041672E /* ProgramRunner.swift in Sources */,
 				E945EAE22593026F001E7A45 /* IncrementalSlope.swift in Sources */,
+				E9BD2E0D25ABAE8B0041672E /* ProgramRawInput.swift in Sources */,
 				E912358425910B8F006C87DE /* Password.swift in Sources */,
 				E9F174CB2598E29100EF3D1B /* Seat.swift in Sources */,
 				E9123547258FA42B006C87DE /* ExpensesCalculator.swift in Sources */,
 				E9F174872593C24400EF3D1B /* PassportFieldsValidator.swift in Sources */,
 				E9F1749A2593DEC600EF3D1B /* Day4RawInputParser.swift in Sources */,
 				E9123554258FB0D6006C87DE /* ValidPasswordsCounter.swift in Sources */,
+				E9BD2DEE25AB74870041672E /* Instruction.swift in Sources */,
 				E945EA8825915987001E7A45 /* PasswordsAndPoliciesRawInput.swift in Sources */,
 				E980F0CA25A14857008B5225 /* BagsContainedCounter.swift in Sources */,
 				E9F174DF2598F00E00EF3D1B /* Day5RawInputParser.swift in Sources */,
@@ -580,6 +641,7 @@
 				E9F174E42598F06100EF3D1B /* BinarySpacePartitionRawInput.swift in Sources */,
 				E980F0C525A015CD008B5225 /* BagRulesRawInput.swift in Sources */,
 				E9F174F82599164F00EF3D1B /* GroupsAnswersRawInput.swift in Sources */,
+				E9BD2DFD25AB7F0F0041672E /* Day8RawInputParser.swift in Sources */,
 				E945EAA725916230001E7A45 /* ExpensesRawInput.swift in Sources */,
 				E9123520258FA297006C87DE /* main.swift in Sources */,
 				E91235A725910D1E006C87DE /* CharacterPositionPolicy.swift in Sources */,
@@ -594,6 +656,7 @@
 				E912357B2591094A006C87DE /* Policy.swift in Sources */,
 				E9F174ED259910EF00EF3D1B /* QuestionAnswersCounter.swift in Sources */,
 				E945EAA0259160E4001E7A45 /* Day1RawInputParser.swift in Sources */,
+				E9BD2DE925AB745F0041672E /* ProgramState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,13 +680,16 @@
 				E9F174A62593F3F900EF3D1B /* PassportDataRawInput.swift in Sources */,
 				E980F0C125A01593008B5225 /* Day7RawInputParserTest.swift in Sources */,
 				E980F0B3259FDDFC008B5225 /* ContainerBagsCounterTest.swift in Sources */,
+				E9BD2DF825AB75120041672E /* ProgramRunner.swift in Sources */,
 				E945EAC7259288EC001E7A45 /* Day3RawInputParserTest.swift in Sources */,
 				E9F174AE2594456D00EF3D1B /* Field.swift in Sources */,
+				E9BD2DFE25AB7F0F0041672E /* Day8RawInputParser.swift in Sources */,
 				E91235B225911AA6006C87DE /* CharacterCountPolicy.swift in Sources */,
 				E9F174EE259910EF00EF3D1B /* QuestionAnswersCounter.swift in Sources */,
 				E945EAA825916230001E7A45 /* ExpensesRawInput.swift in Sources */,
 				E9BD0DE825A655470041672E /* BagsContainedCounterTest.swift in Sources */,
 				E945EAEB2593086D001E7A45 /* Right5Down1SlopeTest.swift in Sources */,
+				E9BD2DEA25AB745F0041672E /* ProgramState.swift in Sources */,
 				E9F174C1259529EB00EF3D1B /* HeightFieldTest.swift in Sources */,
 				E945EADD2592FE44001E7A45 /* Right1Down2SlopeTest.swift in Sources */,
 				E912354B258FA43E006C87DE /* ExpensesCalculatorTest.swift in Sources */,
@@ -638,12 +704,15 @@
 				E980F09F259FC96A008B5225 /* Bag.swift in Sources */,
 				E9F174B425944DDF00EF3D1B /* PassportFieldsAndValuesValidatorTest.swift in Sources */,
 				E9F174E02598F00E00EF3D1B /* Day5RawInputParser.swift in Sources */,
+				E9BD2E0525ABACA40041672E /* Day8RawInputParserTest.swift in Sources */,
+				E9BD2DEF25AB74870041672E /* Instruction.swift in Sources */,
 				E945EAE32593026F001E7A45 /* IncrementalSlope.swift in Sources */,
 				E945EA8925915987001E7A45 /* PasswordsAndPoliciesRawInput.swift in Sources */,
 				E9F1749F2593DF1600EF3D1B /* Day4RawInputParserTest.swift in Sources */,
 				E91235B825912618006C87DE /* CharacterPositionPolicyTest.swift in Sources */,
 				E912359C25910C98006C87DE /* PolicyFactory.swift in Sources */,
 				E9123577258FFB11006C87DE /* CharacterCountPolicyTest.swift in Sources */,
+				E9BD2E0E25ABAE8B0041672E /* ProgramRawInput.swift in Sources */,
 				E91235A125910CFC006C87DE /* Day2RawInputParser.swift in Sources */,
 				E945EAC225928524001E7A45 /* Map.swift in Sources */,
 				E9F174CC2598E29100EF3D1B /* Seat.swift in Sources */,
@@ -655,6 +724,7 @@
 				E945EAD92592F899001E7A45 /* Slope.swift in Sources */,
 				E945EAD42592C429001E7A45 /* MapPatternRawInput.swift in Sources */,
 				E945EAA1259160E4001E7A45 /* Day1RawInputParser.swift in Sources */,
+				E9BD2DF525AB74BB0041672E /* ProgramRunnerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
