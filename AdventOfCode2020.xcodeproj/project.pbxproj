@@ -76,6 +76,9 @@
 		E9BD2E0525ABACA40041672E /* Day8RawInputParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2E0425ABACA40041672E /* Day8RawInputParserTest.swift */; };
 		E9BD2E0D25ABAE8B0041672E /* ProgramRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2E0C25ABAE8B0041672E /* ProgramRawInput.swift */; };
 		E9BD2E0E25ABAE8B0041672E /* ProgramRawInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2E0C25ABAE8B0041672E /* ProgramRawInput.swift */; };
+		E9BD2E1225ABC9740041672E /* ProgramFixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2E1125ABC9740041672E /* ProgramFixer.swift */; };
+		E9BD2E1325ABC9740041672E /* ProgramFixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2E1125ABC9740041672E /* ProgramFixer.swift */; };
+		E9BD2E1725ABDC640041672E /* ProgramFixerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2E1625ABDC640041672E /* ProgramFixerTest.swift */; };
 		E9F174872593C24400EF3D1B /* PassportFieldsValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174862593C24400EF3D1B /* PassportFieldsValidator.swift */; };
 		E9F1748C2593C24800EF3D1B /* PassportFieldsValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F174862593C24400EF3D1B /* PassportFieldsValidator.swift */; };
 		E9F174902593D29F00EF3D1B /* PassportFieldsValidatorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1748F2593D29F00EF3D1B /* PassportFieldsValidatorTest.swift */; };
@@ -169,6 +172,8 @@
 		E9BD2DFC25AB7F0F0041672E /* Day8RawInputParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8RawInputParser.swift; sourceTree = "<group>"; };
 		E9BD2E0425ABACA40041672E /* Day8RawInputParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8RawInputParserTest.swift; sourceTree = "<group>"; };
 		E9BD2E0C25ABAE8B0041672E /* ProgramRawInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramRawInput.swift; sourceTree = "<group>"; };
+		E9BD2E1125ABC9740041672E /* ProgramFixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramFixer.swift; sourceTree = "<group>"; };
+		E9BD2E1625ABDC640041672E /* ProgramFixerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramFixerTest.swift; sourceTree = "<group>"; };
 		E9F174862593C24400EF3D1B /* PassportFieldsValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFieldsValidator.swift; sourceTree = "<group>"; };
 		E9F1748F2593D29F00EF3D1B /* PassportFieldsValidatorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportFieldsValidatorTest.swift; sourceTree = "<group>"; };
 		E9F174952593D50C00EF3D1B /* PassportDataMandatoryFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportDataMandatoryFields.swift; sourceTree = "<group>"; };
@@ -438,6 +443,7 @@
 			children = (
 				E9BD2DED25AB74870041672E /* Instruction.swift */,
 				E9BD2DE225AB4FA90041672E /* ProgramRunner.swift */,
+				E9BD2E1125ABC9740041672E /* ProgramFixer.swift */,
 				E9BD2DE825AB745F0041672E /* ProgramState.swift */,
 				E9BD2DFB25AB7EF60041672E /* Input */,
 			);
@@ -448,6 +454,7 @@
 			isa = PBXGroup;
 			children = (
 				E9BD2DF425AB74BB0041672E /* ProgramRunnerTest.swift */,
+				E9BD2E1625ABDC640041672E /* ProgramFixerTest.swift */,
 				E9BD2E0325ABAC900041672E /* Input */,
 			);
 			path = Day8;
@@ -625,6 +632,7 @@
 				E9123547258FA42B006C87DE /* ExpensesCalculator.swift in Sources */,
 				E9F174872593C24400EF3D1B /* PassportFieldsValidator.swift in Sources */,
 				E9F1749A2593DEC600EF3D1B /* Day4RawInputParser.swift in Sources */,
+				E9BD2E1225ABC9740041672E /* ProgramFixer.swift in Sources */,
 				E9123554258FB0D6006C87DE /* ValidPasswordsCounter.swift in Sources */,
 				E9BD2DEE25AB74870041672E /* Instruction.swift in Sources */,
 				E945EA8825915987001E7A45 /* PasswordsAndPoliciesRawInput.swift in Sources */,
@@ -701,10 +709,12 @@
 				E980F0B825A01013008B5225 /* Day7RawInputParser.swift in Sources */,
 				E980F0AB259FD07B008B5225 /* ContainerBagsCounter.swift in Sources */,
 				E91235AF25911AA0006C87DE /* Policy.swift in Sources */,
+				E9BD2E1325ABC9740041672E /* ProgramFixer.swift in Sources */,
 				E980F09F259FC96A008B5225 /* Bag.swift in Sources */,
 				E9F174B425944DDF00EF3D1B /* PassportFieldsAndValuesValidatorTest.swift in Sources */,
 				E9F174E02598F00E00EF3D1B /* Day5RawInputParser.swift in Sources */,
 				E9BD2E0525ABACA40041672E /* Day8RawInputParserTest.swift in Sources */,
+				E9BD2E1725ABDC640041672E /* ProgramFixerTest.swift in Sources */,
 				E9BD2DEF25AB74870041672E /* Instruction.swift in Sources */,
 				E945EAE32593026F001E7A45 /* IncrementalSlope.swift in Sources */,
 				E945EA8925915987001E7A45 /* PasswordsAndPoliciesRawInput.swift in Sources */,

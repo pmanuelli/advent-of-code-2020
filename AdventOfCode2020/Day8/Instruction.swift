@@ -25,6 +25,8 @@ struct JumpInstruction: Instruction {
 extension JumpInstruction: Equatable { }
 
 struct NoOperationInstruction: Instruction {
+    let argument: Int
+    
     func execute(programState: ProgramState) -> ProgramState {
         ProgramState(instructionPointer: programState.instructionPointer + 1,
                      accumulator: programState.accumulator)

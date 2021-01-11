@@ -118,8 +118,8 @@ func printDay8Results() {
     let program = Day8RawInputParser.parse(raw: ProgramRawInput.exercise)
     
     print("Day 8 - First")
-    print(ProgramRunner().run(program: program))
+    print(ProgramRunner().run(program: program).accumulator)
     
-//    print("Day 8 - Second")
-//    print(BagsContainedCounter(rules: rules).numberOfBagsContainedInsideOfBag(color: "shiny gold"))
+    print("Day 8 - Second")
+    print(ProgramFixer(runner: ProgramRunner()).run(program: program).accumulator)
 }

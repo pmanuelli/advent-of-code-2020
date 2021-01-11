@@ -17,7 +17,7 @@ struct Day8RawInputParser {
         case "jmp":
             return JumpInstruction(argument: argument)
         case "nop":
-            return NoOperationInstruction()
+            return NoOperationInstruction(argument: argument)
         default:
             return nil
         }

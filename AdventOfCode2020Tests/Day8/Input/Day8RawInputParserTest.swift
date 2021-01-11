@@ -13,7 +13,7 @@ class Day8RawInputParserTest: XCTestCase {
         
         let program = Day8RawInputParser.parse(raw: raw)
         
-        XCTAssertEqual(program[0] as? NoOperationInstruction, NoOperationInstruction())
+        XCTAssertEqual(program[0] as? NoOperationInstruction, NoOperationInstruction(argument: 0))
         XCTAssertEqual(program[1] as? AccumulateInstruction, AccumulateInstruction(argument: 1))
         XCTAssertEqual(program[2] as? JumpInstruction, JumpInstruction(argument: -4))
     }

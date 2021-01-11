@@ -24,9 +24,10 @@ class ProgramRunnerTest: XCTestCase {
                        aInstruction(returning: ProgramState(instructionPointer: 0, accumulator: 0)),
                        aInstruction(returning: ProgramState(instructionPointer: 3, accumulator: expectedAccumulator))]
         
-        let accumulator = runner.run(program: program)
+        let result = runner.run(program: program)
         
-        XCTAssertEqual(accumulator, expectedAccumulator)
+        XCTAssertEqual(result.accumulator, expectedAccumulator)
+        XCTAssertTrue(result.terminatedNormally)
     }
     
     func testUpdatesState() {
@@ -56,18 +57,19 @@ class ProgramRunnerTest: XCTestCase {
                        aInstruction(returning: ProgramState(instructionPointer: 0, accumulator: expectedAccumulator)),
                        aInstruction(returning: ProgramState(instructionPointer: 1, accumulator: 0))]
         
-        let accumulator = runner.run(program: program)
+        let result = runner.run(program: program)
         
-        XCTAssertEqual(accumulator, expectedAccumulator)
+        XCTAssertEqual(result.accumulator, expectedAccumulator)
+        XCTAssertFalse(result.terminatedNormally)
     }
     
     func testExampleInput() {
                 
         let program: [Instruction] = Day8RawInputParser.parse(raw: ProgramRawInput.example)
         
-        let accumulator = runner.run(program: program)
+        let result = runner.run(program: program)
         
-        XCTAssertEqual(accumulator, 5)
+        XCTAssertEqual(result.accumulator, 5)
     }
     
     private func aInstruction(returning programState: ProgramState) -> InstructionSpy {
@@ -78,7 +80,7 @@ class ProgramRunnerTest: XCTestCase {
 }
 
 class InstructionSpy: Instruction {
-    
+
     var executeTimesCalled = 0
     var executeParameters = [ProgramState]()
     var executeReturnValue: ProgramState!
